@@ -2,103 +2,102 @@ let carts = document.querySelectorAll('.add-cart');
 
 let products = [ 
     {
-        name: "item 1",
-        tag: "item 1",
+        name: "f1",
+        tag: "f1",
         price: 15,
         inCart: 0
     },
     {
-        name: "item 2",
-        tag: "item 2",
+        name: "f2",
+        tag: "f2",
         price: 20,
         inCart: 0
     },
     {
-        name: "item 3",
-        tag: "item 3",
+        name: "f3",
+        tag: "f3",
         price: 15,
         inCart: 0
     },
     {
-        name: "item 4",
-        tag: "item 4",
+        name: "f4",
+        tag: "f4",
         price: 20,
         inCart: 0
     },
     {
-        name: "item 5",
-        tag: "item 5",
+        name: "f5",
+        tag: "f5",
         price: 15,
         inCart: 0
     },
     {
-        name: "item 6",
-        tag: "item 6",
+        name: "f6",
+        tag: "f6",
         price: 20,
         inCart: 0
     },
     {
-        name: "item 7",
-        tag: "item 7",
+        name: "f7",
+        tag: "f7",
         price: 15,
         inCart: 0
     },
     {
-        name: "item 8",
-        tag: "item 8",
+        name: "f8",
+        tag: "f8",
         price: 20,
         inCart: 0
     },
     {
-        name: "item 9",
-        tag: "item 9",
+        name: "n1",
+        tag: "n1",
         price: 15,
         inCart: 0
     },
     {
-        name: "item 10",
-        tag: "item 10",
+        name: "n2",
+        tag: "n2",
         price: 20,
         inCart: 0
     },
     {
-        name: "item 11",
-        tag: "item 11",
+        name: "n3",
+        tag: "n3",
         price: 15,
         inCart: 0
     },
     {
-        name: "item 12",
-        tag: "item 12",
+        name: "n4",
+        tag: "n4",
         price: 20,
         inCart: 0
     },
     {
-        name: "item 13",
-        tag: "item 13",
+        name: "n5",
+        tag: "n5",
         price: 15,
         inCart: 0
     },
     {
-        name: "item 14",
-        tag: "item 14",
+        name: "n6",
+        tag: "n6",
         price: 20,
         inCart: 0
     },
     {
-        name: "item 15",
-        tag: "item 15",
+        name: "n7",
+        tag: "n7",
         price: 15,
         inCart: 0
     },
     {
-        name: "item 16",
-        tag: "item 16",
+        name: "n8",
+        tag: "n8",
         price: 20,
         inCart: 0
     }
 ];
-
 for(let i=0; i< carts.length; i++) {
     carts[i].addEventListener('click', () => {
         cartNumbers(products[i]);
